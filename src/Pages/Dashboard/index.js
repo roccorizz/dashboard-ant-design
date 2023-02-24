@@ -140,8 +140,7 @@ function RecentOrders() {
                 ]}
                 loading={loading}
                 dataSource={dataSource}
-
-
+                pagination={false}
             ></Table >
         </>
     );
